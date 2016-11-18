@@ -1,0 +1,16 @@
+{
+    "name": "vendor/newsletter",
+    "description": "Description of project newsletter.",
+    "authors": [
+        {
+            "name": "kelvin",
+            "email": "your@email.here"
+        }
+    ],
+    "require": {
+        "doctrine/orm": "v2.5.0",
+        "smarty/smarty": "v3.1.27",
+        "apache/log4php": "2.3.0",
+        "phpmailer/phpmailer": "^5.2"
+    }
+}
