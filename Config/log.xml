@@ -3,9 +3,8 @@
         <layout class="LoggerLayoutPattern">
             <param name="conversionPattern" value="%date [%logger][%-5level] - %message%newline" />
         </layout>
-        <param name="file" value="logs/ingrid.log" />
+        <param name="file" value="logs/newsletter.log" />
     </appender>
-
     <root>
         <appender_ref ref="myFileAppender" />
     </root>
